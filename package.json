@@ -1,0 +1,9 @@
+{
+  "name": "hexo-generator-sitemap-i18n",
+  "version": "1.0.0",
+  "description": "Hexo sitemap generator with i18n support and canonical/hreflang tags",
+  "main": "index.js",
+  "keywords": ["hexo", "sitemap", "i18n", "canonical", "hreflang"],
+  "author": "Neo Alienson",
+  "license": "MIT"
+}
