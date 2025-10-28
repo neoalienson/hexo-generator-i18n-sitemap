@@ -20,6 +20,7 @@ Add to `_config.yml` (all options are optional):
 
 ```yaml
 sitemap_i18n:
+  enable: true         # Enable/disable generator (default: true)
   languages:           # Optional, defaults to ['en', 'zh-TW', 'zh-CN', 'ja']
     - en
     - zh-TW
@@ -27,6 +28,13 @@ sitemap_i18n:
     - ja
   changefreq: monthly  # Default changefreq (optional)
   priority: 0.6        # Default priority (optional)
+```
+
+To disable the generator:
+
+```yaml
+sitemap_i18n:
+  enable: false
 ```
 
 ### Per-Page Configuration

@@ -7,6 +7,12 @@ const { getBasePath, isHomepageIndexHtml } = require('./lib');
 hexo.extend.generator.register('sitemap-i18n', function(locals) {
   const config = this.config;
   const sitemapConfig = config.sitemap_i18n || {};
+  
+  // Check if generator is disabled
+  if (sitemapConfig.enable === false) {
+    return [];
+  }
+  
   const languages = sitemapConfig.languages || ['en', 'zh-TW', 'zh-CN', 'ja'];
   
   // Group pages by base path
