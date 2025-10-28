@@ -1,4 +1,4 @@
-# hexo-generator-sitemap-i18n
+# hexo-generator-i18n-sitemap
 
 Hexo plugin that generates sitemap.xml for multilingual sites.
 
@@ -11,7 +11,7 @@ Hexo plugin that generates sitemap.xml for multilingual sites.
 ## Installation
 
 ```bash
-npm install hexo-generator-sitemap-i18n
+npm install hexo-generator-i18n-sitemap
 ```
 
 ## Configuration

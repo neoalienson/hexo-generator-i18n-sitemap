@@ -1,5 +1,5 @@
 {
-  "name": "hexo-generator-sitemap-i18n",
+  "name": "hexo-generator-i18n-sitemap",
   "version": "1.0.0",
   "description": "Hexo sitemap generator with i18n support and canonical/hreflang tags",
   "main": "index.js",
