@@ -1,5 +1,8 @@
 # hexo-generator-i18n-sitemap
 
+[![npm version](https://badge.fury.io/js/hexo-generator-i18n-sitemap.svg)](https://badge.fury.io/js/hexo-generator-i18n-sitemap)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Hexo plugin that generates sitemap.xml for multilingual sites.
 
 ## Features
@@ -66,13 +69,17 @@ Just install and configure. The plugin runs automatically during `hexo generate`
 Run unit tests:
 
 ```bash
-node test.js
+npm test
 ```
 
 Tests verify:
 - Base path extraction from language-prefixed URLs
 - Homepage index.html detection and filtering
 - Proper handling of all supported languages
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 

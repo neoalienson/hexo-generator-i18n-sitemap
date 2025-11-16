@@ -1,9 +1,35 @@
 {
   "name": "hexo-generator-i18n-sitemap",
   "version": "1.0.0",
-  "description": "Hexo sitemap generator with i18n support and canonical/hreflang tags",
+  "description": "Hexo plugin that generates sitemap.xml for multilingual sites",
   "main": "index.js",
-  "keywords": ["hexo", "sitemap", "i18n", "canonical", "hreflang"],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neoalienson/hexo-generator-i18n-sitemap.git"
+  },
+  "keywords": [
+    "hexo",
+    "sitemap",
+    "i18n",
+    "multilingual",
+    "generator",
+    "plugin"
+  ],
   "author": "Neo Alienson",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoalienson/hexo-generator-i18n-sitemap/issues"
+  },
+  "homepage": "https://github.com/neoalienson/hexo-generator-i18n-sitemap#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib.js",
+    "README.md"
+  ]
 }
